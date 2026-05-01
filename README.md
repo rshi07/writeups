@@ -1,2 +1,3 @@
 # writeups
-ctf writeups for solved challs
+
+noob ctf player makes writeups since i really have to keep track of solved challs

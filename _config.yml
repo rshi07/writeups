@@ -1,0 +1,33 @@
+title: CTF Writeups
+description: Challenge notes, solve paths, and post-competition writeups.
+url: ""
+baseurl: "/writeups"
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+collections:
+  writeups:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "writeups"
+    values:
+      layout: writeup
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - _writeups/2026/_template.md
+  - node_modules
+  - vendor
+  - .jekyll-cache
